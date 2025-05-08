@@ -1,0 +1,29 @@
+name: udece_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.5.1 # Manejo de estado
+  shared_preferences: ^2.2.2 # Almacenamiento de datos en el dispositivo
+  freezed_annotation: ^2.4.1 # Para modelos inmutables y con igualdad estructural
+  json_annotation: ^4.8.1 # Para parsing JSON
+  go_router: ^13.0.1 # Para manejo de rutas
+  dio: ^5.4.1 # Cliente HTTP moderno
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  build_runner: ^2.4.6 # Para generar código con Freezed y JsonSerializable
+  freezed: ^2.4.6
+  json_serializable: ^6.7.1
+
+flutter:
+  uses-material-design: true
+
